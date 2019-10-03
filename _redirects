@@ -18,6 +18,7 @@ layout: null
   {% assign first_six = url | slice: 1, 6 %}
   {% assign first_seven = url | slice: 1, 7 %}
 
+
   # don't redirect /404
   {% if first_three == "404" %}
     {% continue %}
@@ -83,6 +84,7 @@ layout: null
       {% assign is_lang = 1 %}
       {% continue %}
     {% endif %}
+
 
   {% endfor %}
 
