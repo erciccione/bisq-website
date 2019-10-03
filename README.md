@@ -9,6 +9,7 @@ We use the *[jekyll-multiple-languages-plugin](https://github.com/kurtsson/jekyl
 3. Copy the English `.yml` file and folder in `_i18n` and rename them using the correct language code. Using Italian as example, you will have 1 file `it.yml` and one folder `it`. Translate all English strings you find in the new `LANG.yml` (in our example: `it.yml`).
 4. Open the file `_data/dao_content.yml`. Copy the entire `en` block, paste it at the bottom of the page and change `en` into your language code. In our example would be `it:`. Then translate all strings.
 5. All localized picture are in `i18n_img/LANG`. Make sure to create a folder for your language containing the correct images.
+6. Inclue the language tag (i.e. `it`) you just created in the `_config.yml` file, in the `languages` array
 
 ### Run the Jekyll site locally:
 

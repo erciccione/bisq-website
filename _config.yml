@@ -10,7 +10,7 @@ plugins:
   - jekyll-paginate
   - jekyll-multiple-languages-plugin
   
-languages: ["en", "fr", "es", "de", "ja", "pt-PT", "zh-CN"]
+languages: ["en", "fr", "es", "de", "ja", "pt-PT","pt-BR", "zh-CN"]
 exclude_from_localizations: ["blog", "_posts"]
 
 feed:
